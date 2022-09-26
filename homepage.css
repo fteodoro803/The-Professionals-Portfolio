@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Cozette;
+  src: url(CozetteVector.ttf);
+}
+
+body {
+  font-family: Cozette;
+}
+
+.title {
+  font-size: 90px;
+  padding: 30px 30px 0px 30px;
+  margin-bottom: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.flexbox-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.summary {
+  border: solid 3px;
+  border-radius: 10px;
+  box-shadow: 10px 10px #121212;
+}
+
+.button {
+  border: solid 3px;
+  border-radius: 10px;
+  padding: 20px 10px 20px 10px;
+  margin: 10px 20px 10px 20px;
+  transition: all 0.3s ease;
+  box-shadow: 7px 7px #121212;
+  font-size: 28px;
+  font-weight: bolder;
+  width: 300px;
+  height: 80px;
+}
+
+.button:nth-of-type(even) {
+  grid-column: 2;
+}
+
+.button:hover {
+  background-color: #121212;
+  color: aliceblue;
+  border: solid #121212;
+  font-size: 25px;
+}
