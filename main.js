@@ -1,0 +1,65 @@
+function displayAndy() {
+  // Insert your full name here
+  document.getElementById("summary-title").innerHTML = "Andy Low";
+  
+  // Insert your details here
+  document.getElementById("summary-text").innerHTML =
+    "adndhjkdjksfklfjksfhjkslfhs";
+  const element = document.querySelector(".summary-img");
+  element.style.display = "block";
+  
+  // Select your sprite by changing the number
+  document.getElementById("sprite").src = "./sprites/sprite1.png";
+}
+
+function displayAshlyn() {
+  // Insert your full name here
+  document.getElementById("summary-title").innerHTML = "Ashlyn";
+
+  // Insert your details here
+  document.getElementById("summary-text").innerHTML =
+    "adndhjkdjksfklfjksfhjkslfhsjfh\
+       sdfhsahfjsafhsahfshfjsdlfsdlhfsd";
+
+  // Select your sprite by changing the number
+  document.getElementById("sprite").src = "./sprites/sprite2.png";
+}
+
+function displayEmily() {
+  // Insert your full name here
+  document.getElementById("summary-title").innerHTML = "Emily";
+
+  // Insert your details here
+  document.getElementById("summary-text").innerHTML =
+    "adndhjkdjksfklfjksfhjkslfhsjfhshfhfjk\
+         sdfhsahfjsafhsahfshfjsdlfsdlhfsd";
+
+  // Select your sprite by changing the number
+  document.getElementById("sprite").src = "./sprites/sprite3.png";
+}
+
+function displayFernando() {
+  // Insert your full name here
+  document.getElementById("summary-title").innerHTML = "Fernando";
+
+  // Insert your details here
+  document.getElementById("summary-text").innerHTML =
+    "adndhjkdjksfklfjksfhjkslfhsjfhshfhfjksfhjfhsfs\
+         sdfhsahfjsafhsahfshfjsdlfsdlhfsd";
+
+  // Select your sprite by changing the number
+  document.getElementById("sprite").src = "./sprites/sprite4.png";
+}
+
+function displayNahyun() {
+  // Insert your full name here
+  document.getElementById("summary-title").innerHTML = "Nahyun";
+
+  // Insert your details here
+  document.getElementById("summary-text").innerHTML =
+    "adndhjkdjksfklfjksfhjkslfhsjfhshfh\
+           sdfhsahfjsafhsahfshfjsdlfsdlhfsd";
+
+  // Select your sprite by changing the number
+  document.getElementById("sprite").src = "./sprites/sprite5.png";
+}

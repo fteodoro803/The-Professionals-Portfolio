@@ -1,7 +1,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Professional Portfolio</title>
+    <title>Professionals Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
@@ -11,20 +11,21 @@
   </head>
 
   <body>
-    <h1 class="title">The Professionals</h1>
+    <div class="title">The Professionals</div>
+    <div class="subtitle">Character Selection</div>
     <div class="container">
       <!-- Character Selection -->
-      <div class="flexbox-vertical">
-        <a class="button"> ANDY </a>
-        <a class="button"> FERNANDO </a>
-        <a class="button"> EMILY </a>
-        <a class="button Four"> NAHYUN </a>
-        <a class="button Four"> ASHLYN </a>
+      <div class="buttons-vertical">
+        <button onclick="displayAndy()" id="Andy">ANDY</button>
+        <button onclick="displayAshlyn()" id="Ashlyn">ASHLYN</button>
+        <button onclick="displayEmily()" id="Emily">EMILY</button>
+        <button onclick="displayFernando()" id="Fernando">FERNANDO</button>
+        <button onclick="displayNahyun()" id="Nahyun">NAHYUN</button>
       </div>
-      <div class="summary">
+      <div class="summary-container">
         <div class="summary-body">
-          <h2 class="summary-title">The title</h2>
-          <p class="summary-text">
+          <h2 class="summary-title" id="summary-title">The title</h2>
+          <p class="summary-text" id="summary-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -33,6 +34,9 @@
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
+        </div>
+        <div class="summary-img">
+          <img id="sprite"/>
         </div>
       </div>
     </div>

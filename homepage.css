@@ -7,6 +7,48 @@ body {
   font-family: Cozette;
 }
 
+button {
+  font-family: Cozette;
+}
+
+.title {
+  font-size: 90px;
+  padding: 30px 30px 0px 30px;
+  margin-bottom: 0px;
+}
+
+.subtitle {
+  font-size: 64px;
+  padding: 0px 30px 0px 30px;
+  margin-bottom: 0px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+}
+
+.buttons-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.summary-container {
+  display: grid;
+  grid-template-columns: 3fr fit-content(20%);
+  border: solid 3px;
+  border-radius: 10px;
+  box-shadow: 10px 10px #121212;
+  margin-right: 20px;
+}
+
+.summary-img {
+  margin: auto auto auto auto;
+  display: none;
+  width: 300px;
+}
+
 .summary-body {
   padding: 50px;
 }
@@ -21,32 +63,7 @@ body {
   font-size: 20px;
 }
 
-.title {
-  font-size: 90px;
-  padding: 30px 30px 0px 30px;
-  margin-bottom: 0px;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
-.flexbox-vertical {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 10px 10px 10px;
-}
-
-.summary {
-  border: solid 3px;
-  border-radius: 10px;
-  box-shadow: 10px 10px #121212;
-}
-
-.button {
+button {
   border: solid 3px;
   border-radius: 10px;
   padding: 20px 10px 20px 10px;
@@ -58,18 +75,9 @@ body {
   height: 80px;
 }
 
-.button:nth-of-type(even) {
-  grid-column: 2;
-}
-
-.button:hover + .summary-body {
+button:hover {
   background-color: #121212;
   color: aliceblue;
   border: solid #121212;
   font-size: 25px;
-}
-
-.button:hover + .summary-body {
-  display: block;
-  color: red;
 }
