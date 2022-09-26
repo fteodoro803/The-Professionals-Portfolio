@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Cozette;
+  src: url(../CozetteVector.ttf);
+}
+
+body {
+  font-family: Cozette;
+}
+
+.title {
+  font-size: 72px;
+  padding: 30px 30px 0px 30px;
+  margin-bottom: 0px;
+}

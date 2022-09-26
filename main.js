@@ -78,3 +78,10 @@ function selected() {
   const selectCharacter = document.getElementById("characterSelect");
   selectCharacter.style.display = "block";
 }
+
+function goToPage() {
+  var title = document.getElementById("summary-title").innerHTML;
+  // cleans the extension
+  title = title.replace(/\s+/g, '-').toLowerCase();
+  location.href = "./pages/" + title + ".html";
+}
