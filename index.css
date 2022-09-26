@@ -3,11 +3,12 @@
   src: url(CozetteVector.ttf);
 }
 
-body {
-  font-family: Cozette;
+:root {
+  --black: #121212;
+  --pink: #ee959e;
 }
 
-button {
+html * {
   font-family: Cozette;
 }
 
@@ -50,7 +51,7 @@ button {
   grid-template-columns: 3fr fit-content(20%);
   border: solid 3px;
   border-radius: 10px;
-  box-shadow: 10px 10px #121212;
+  box-shadow: 10px 10px var(--black);
 }
 
 .summary-img {
@@ -88,15 +89,19 @@ button {
   padding: 20px 10px 20px 10px;
   margin: 10px 20px 10px 20px;
   transition: all 0.3s ease;
-  box-shadow: 7px 7px #121212;
+  box-shadow: 7px 7px var(--black);
   font-size: 28px;
   width: 300px;
   height: 70px;
 }
 
 button:hover {
-  background-color: #121212;
-  color: aliceblue;
-  border: solid #121212;
+  background-color: var(--pink);
+  border: solid var(--black);
   font-size: 25px;
+}
+
+button:active {
+  box-shadow: 0px 0px var(--black);
+  transform: translateX(7px) translateY(7px);
 }
