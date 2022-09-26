@@ -73,15 +73,21 @@ function displayNahyun() {
 }
 
 function goToPage() {
+  // NOTE: the html filename must match your "summary-title" name you inserted above completely
   var title = document.getElementById("summary-title").innerHTML;
-  // cleans the extension
+
+  // Formats the href appropriately
   title = title.replace(/\s+/g, "-").toLowerCase();
   location.href = "./pages/" + title + ".html";
 }
 
+// Used to check if any name is selected
 function selected() {
+  // Displays your sprite
   const summary = document.querySelector(".summary-img");
   summary.style.display = "block";
+
+  // Displays the select button
   const selectCharacter = document.getElementById("characterSelect");
   selectCharacter.style.display = "block";
 }
