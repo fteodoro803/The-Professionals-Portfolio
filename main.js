@@ -1,18 +1,20 @@
 function displayAndy() {
+  selected();
+
   // Insert your full name here
   document.getElementById("summary-title").innerHTML = "Andy Low";
-  
+
   // Insert your details here
   document.getElementById("summary-text").innerHTML =
     "adndhjkdjksfklfjksfhjkslfhs";
-  const element = document.querySelector(".summary-img");
-  element.style.display = "block";
-  
+
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite1.png";
 }
 
 function displayAshlyn() {
+  selected();
+
   // Insert your full name here
   document.getElementById("summary-title").innerHTML = "Ashlyn";
 
@@ -26,6 +28,8 @@ function displayAshlyn() {
 }
 
 function displayEmily() {
+  selected();
+
   // Insert your full name here
   document.getElementById("summary-title").innerHTML = "Emily";
 
@@ -39,6 +43,8 @@ function displayEmily() {
 }
 
 function displayFernando() {
+  selected();
+
   // Insert your full name here
   document.getElementById("summary-title").innerHTML = "Fernando";
 
@@ -52,6 +58,8 @@ function displayFernando() {
 }
 
 function displayNahyun() {
+  selected();
+
   // Insert your full name here
   document.getElementById("summary-title").innerHTML = "Nahyun";
 
@@ -62,4 +70,11 @@ function displayNahyun() {
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite5.png";
+}
+
+function selected() {
+  const summary = document.querySelector(".summary-img");
+  summary.style.display = "block";
+  const selectCharacter = document.getElementById("characterSelect");
+  selectCharacter.style.display = "block";
 }
