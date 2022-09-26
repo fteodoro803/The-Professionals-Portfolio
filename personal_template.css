@@ -1,0 +1,103 @@
+@font-face {
+  font-family: Cozette;
+  src: url(CozetteVector.ttf);
+}
+
+body {
+  font-family: Cozette;
+}
+
+.image_box {
+  margin-top: 60px;
+  margin-left: 100px;
+  border: solid 3px;
+  border-radius: 10px;
+  box-shadow: 10px 10px #121212;
+}
+
+.intro {
+  margin-top: 60px;
+  border: solid 3px;
+  border-radius: 10px;
+  box-shadow: 10px 10px #121212;
+}
+
+.intro-body {
+  padding: 40px;
+  padding-bottom: 50px;
+}
+
+.social-media-contacts {
+  font-size: 23px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.about-me {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 70px;
+  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
+}
+
+.segment1-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.segment2-container {
+  display: grid;
+  grid-template-colums: 1fr 2fr;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.flexbox-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+}
+
+.summary {
+  border: solid 3px;
+  border-radius: 10px;
+  box-shadow: 10px 10px #121212;
+}
+
+.button {
+  border: solid 3px;
+  border-radius: 10px;
+  padding: 20px 10px 20px 10px;
+  margin: 10px 20px 10px 20px;
+  transition: all 0.3s ease;
+  box-shadow: 7px 7px #121212;
+  font-size: 28px;
+  width: 300px;
+  height: 80px;
+}
+
+.button:nth-of-type(even) {
+  grid-column: 2;
+}
+
+.button:hover + .summary-body {
+  background-color: #121212;
+  color: aliceblue;
+  border: solid #121212;
+  font-size: 25px;
+}
+
+.button:hover + .summary-body {
+  display: block;
+  color: red;
+}
