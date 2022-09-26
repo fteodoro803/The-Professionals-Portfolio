@@ -72,16 +72,16 @@ function displayNahyun() {
   document.getElementById("sprite").src = "./sprites/sprite5.png";
 }
 
+function goToPage() {
+  var title = document.getElementById("summary-title").innerHTML;
+  // cleans the extension
+  title = title.replace(/\s+/g, "-").toLowerCase();
+  location.href = "./pages/" + title + ".html";
+}
+
 function selected() {
   const summary = document.querySelector(".summary-img");
   summary.style.display = "block";
   const selectCharacter = document.getElementById("characterSelect");
   selectCharacter.style.display = "block";
-}
-
-function goToPage() {
-  var title = document.getElementById("summary-title").innerHTML;
-  // cleans the extension
-  title = title.replace(/\s+/g, '-').toLowerCase();
-  location.href = "./pages/" + title + ".html";
 }
