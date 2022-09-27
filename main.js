@@ -27,7 +27,7 @@ function displayAndy() {
 
   // Insert your details here
   document.getElementById("summary-text").innerHTML = 
-  "\"Don't give up on your dreams, go back to sleep\"" + "<br>" + "<br>" +
+  "\"Don't give up on your dreams, go back to sleep.\"" + "<br>" + "<br>" +
 
   "<u>" + "Skills" + "</u>" + "<br>" +
   " CSS/HTML 56/100" + "<br>" + 
@@ -36,7 +36,8 @@ function displayAndy() {
   "RGB Keyboard +500 HP" + "<br>" + "<br>" +
 
   "<u>" + "Projects" + "</u>" + "<br>" +
-  "Walorant | Tesla Hacking | Nasa Artemis 1 | MYKI Inspector Alert App"
+  "| Walorant | Tesla Hacking |" + "<br>" +
+  "| Nasa Artemis 1 | MYKI Alert App |"
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite0.png";
@@ -59,33 +60,11 @@ function displayAshlyn() {
   "Pendant +5 Charisma" + "<br>" + "<br>" +
 
   "<u>" + "Projects" + "</u>" + "<br>" +
-  "Scribble It | VR Circus Simulator | Pingu Scholar | Python Snake Game"
+  "| Scribble It | VR Circus Sim |" + "<br>" +
+  "| Pingu Scholar | Python Snake Game |"
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite2.png";
-}
-
-function displayEmily() {
-  selected();
-
-  // Insert your full name here
-  document.getElementById("summary-title").innerHTML = "Emily";
-
-  // Insert your details here
-  document.getElementById("summary-text").innerHTML =
-  "\"Oops, not again.\"" + "<br>" + "<br>" +
-
-  "<u>" + "Skills" + "</u>" + "<br>" +
-  " CSS/HTML 56/100" + "<br>" + 
-  "Java 89/100" + "<br>" + 
-  "C 0/100" + "<br>" +
-  "RGB Keyboard +500HP" + "<br>" + "<br>" +
-
-  "<u>" + "Projects" + "</u>" + "<br>" +
-  "Walorant | Tesla Hacking | Nasa Artemis 1"
-
-  // Select your sprite by changing the number
-  document.getElementById("sprite").src = "./sprites/sprite3.png";
 }
 
 function displayFernando() {
@@ -106,7 +85,8 @@ function displayFernando() {
   "Golden Horseshoe +50 Luck" + "<br>" + "<br>" +
 
   "<u>" + "Projects" + "</u>" + "<br>" +
-  "Twilight.com | Henry VIII Crown Hunt | VentureMap | BigFoot Tracker"
+  "| Twilight.com | Henry VIII Crown Hunt |" + "<br>" +
+  "| Venture Map | Bigfoot Tracker |"
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite4.png";
@@ -129,7 +109,8 @@ function displayNahyun() {
   "Magic Wand +420 Attack" + "<br>" + "<br>" +
 
   "<u>" + "Projects" + "</u>" + "<br>" +
-  "Kanvas | Math Solver | PenGoogle | Python Snake Game"
+  "| Kanvas | Math Solver |" + "<br>" +
+  "| PenGoogle | Python Snake Game |"
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite5.png";
@@ -145,7 +126,7 @@ function goToPage() {
 }
 
 // Used to check if any name is selected
-function selected() {
+function selected() {  
   // Removes image
   const image = document.getElementById("group-photo")
   image.style.display = "none";
