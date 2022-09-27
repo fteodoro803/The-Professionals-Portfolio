@@ -3,13 +3,293 @@
     <meta charset="utf-8" />
     <title>Nahyun's Profile</title>
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"
     />
     <link rel="stylesheet" href="pagestyles.css" />
+    <script src="~bulma-carousel/dist/js/bulma-carousel.min.js"></script>
+    <script
+            src="https://kit.fontawesome.com/1438e6301e.js"
+            crossorigin="anonymous"
+    ></script>
+    <script src="pagescripts.js"></script>
   </head>
 
   <body>
-      <div class="title">Nahyun's Page</div>
+    <div class="head">
+      <a href="../index.html">
+        <i class="fa-solid fa-house"></i>
+      </a>
+      <div class="profile-title">Nahyun's Page</div>
+    </div>
+    <div class="flexbox-horizontal">
+      <div class="abouts-container">
+        <img class="sprite" src="../sprites/sprite5.png" />
+        <div class="abouts-header">About Nahyun</div>
+        <div class="abouts-content">
+          Nahyun is a student from Hogwarts University, majoring in Transfiguration. Nahyun’s journey into coding started as a dare between Ashlyn and her, launching her journey into the muggle world.        </div>
+      </div>
+      <div class="projects-container">
+        <div class="projects-header">Projects</div>
+        <!-- Start Carousel -->
+        <div id="carousel-demo" class="carousel">
+          <div class="item-1">
+            <!-- Slide Content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="../images/kanvas.png" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <button class="js-modal-trigger" data-target="project-1">
+                      Project 1
+                    </button>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Kanvas
+                  <br />
+                  <time datetime="2008-22-11">00:00 AM - 14 Aug 2008</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-2">
+            <!-- Slide Content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <button class="js-modal-trigger" data-target="project-2">
+                      Project 2
+                    </button>
+                  </div>
+                </div>
+
+                <div class="content">
+                  MathSolver
+                  <br />
+                  <time datetime="2016-1-1">11:59 AM - 15 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-3">
+            <!-- Slide Content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                          src="../images/pengoogle.png"
+                          alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <button class="js-modal-trigger" data-target="project-3">
+                      Project 3
+                    </button>
+                  </div>
+                </div>
+
+                <div class="content">
+                  PenGoogle
+                  <br />
+                  <time datetime="2016-1-1">07:02 PM - 4 Sept 1997</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-4">
+            <!-- Slide Content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                          src=""
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <button class="js-modal-trigger" data-target="project-4">
+                      Project 4
+                    </button>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Python Game
+                  <br />
+                  <time datetime="2016-1-1">11:11 PM - 11 Nov 2011</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-5">
+            <!-- Slide Content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                          src="https://bulma.io/images/placeholders/1280x960.png"
+                          alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <button class="js-modal-trigger" data-target="project-5">
+                      Project 5
+                    </button>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Placeholder Text
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-6">
+            <!-- Slide Content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                          src="https://bulma.io/images/placeholders/1280x960.png"
+                          alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <button class="js-modal-trigger" data-target="project-6">
+                      Project 6
+                    </button>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Placeholder Text
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Carousel -->
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+      <script>
+        bulmaCarousel.attach("#carousel-demo", {
+          slidesToScroll: 2,
+          slidesToShow: 2,
+          infinite: true,
+        });
+      </script>
+    </div>
+
+    <div id="project-1" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <div class="modal-title">Kanvas</div>
+          <img src="../images/kanvas.png">
+          <p>
+            Sick of the constant pile of lectures from her first year subjects (that she should have watched a month before), Nahyun developed a Learning Management System of her own that would help her feel less overwhelmed from the consequences of her own procrastination. Almost an exact replica of Canvas LMS, Kanvas allows watching lectures beyond the standard 2x speed - up to 10x speed! (in convenient 0.25x increments) This condenses an entire semester’s worth of lectures into just 3.6 hours each subject. Kanvas also comes with a speech-to-text function, allowing Nahyun to skip lectures completely and simply just read a transcript. Note writing has never troubled Nahyun since the conception of her project, due to the Note-Copy feature which converts the lecturer’s handwriting into conveniently formatted word documents. Not much actual studying has been done, but at least Nahyun feels productive!
+          </p>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="project-2" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <div class="modal-title">MathSolver</div>
+          <img src="">
+          <p>Nahyun has recently transferred universities, causing much confusion in her education background as she does not understand the ways of the muggle world. Nahyun enrolled in maths, thinking it was a subject similar to her old major, transfiguration as it involves the manipulation of numbers. Nahyun was wrong. She was bad at maths. And her bad grades led to the development of MathSolver.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="project-3" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <div class="modal-title">PenGoogle</div>
+          <img src="../images/pengoogle.png">
+          <p>Nahyun and Ashlyn are dedicated lovers of penguins, starting a penguin trend in their projects. Nahyun developed ‘Pengoogle’, a search engine for penguin-related information for penguin loves. Pengoogle, was an idea that formed in her head when her Google searches failed to give her a sufficient amount of penguin related data during one of her trips to Antarctica. Complete with ‘Pengoogle Translate’, with the capability of English-Penguinese (Simplified and Traditional) translation, Pengoogle is one of the most powerful Antarctica-based search engines available today.
+          </p>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="project-4" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <div class="modal-title">Python Game</div>
+          <img src="">
+          <p>Shared with ashlyn cos we laxy</p>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="project-5" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <div class="modal-title">Title</div>
+          <img src="">
+          <p>Content</p>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="project-6" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <div class="modal-title">Title</div>
+          <img src="">
+          <p>Content</p>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
   </body>
 </html>
