@@ -144,6 +144,7 @@ function selected() {
   const title = document.getElementById("summary-title")
   title.style.borderBottom = "solid 4px var(--black)";
   title.style.borderRight = "solid 4px var(--black)";
+  title.style.borderTopRightRadius = "0px";
 
   const body = document.getElementById("summary-body")
   body.style.borderBottom = "solid 4px var(--black)";
