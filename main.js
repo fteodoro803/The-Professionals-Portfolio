@@ -1,7 +1,7 @@
 function changeBlue() {
   var x = document.querySelectorAll("button")
   x.forEach(button => {
-    button.style.backgroundColor = "dodgerblue"
+    button.style.backgroundColor = "#7F8DE2"
   });
 }
 
@@ -15,7 +15,7 @@ function changePink() {
 function changeGreen() {
   var x = document.querySelectorAll("button")
   x.forEach(button => {
-    button.style.backgroundColor = "greenyellow"
+    button.style.backgroundColor = "#77DD77"
   });
 }
 
@@ -26,11 +26,20 @@ function displayAndy() {
   document.getElementById("summary-title").innerHTML = "Andy Low";
 
   // Insert your details here
-  document.getElementById("summary-text").innerHTML =
-    "adndhjkdjksfklfjksfhjkslfhsdhad";
+  document.getElementById("summary-text").innerHTML = 
+  "\"Don't give up on your dreams, go back to sleep\"" + "<br>" + "<br>" +
+
+  "<u>" + "Skills" + "</u>" + "<br>" +
+  " CSS/HTML 56/100" + "<br>" + 
+  "Java 89/100" + "<br>" + 
+  "C 0/100" + "<br>" +
+  "RGB Keyboard +500 HP" + "<br>" + "<br>" +
+
+  "<u>" + "Projects" + "</u>" + "<br>" +
+  "Walorant | Tesla Hacking | Nasa Artemis 1"
 
   // Select your sprite by changing the number
-  document.getElementById("sprite").src = "./sprites/sprite1.png";
+  document.getElementById("sprite").src = "./sprites/sprite0.png";
 }
 
 function displayAshlyn() {
@@ -41,8 +50,16 @@ function displayAshlyn() {
 
   // Insert your details here
   document.getElementById("summary-text").innerHTML =
-    "adndhjkdjksfklfjksfhjkslfhsjfh\
-       sdfhsahfjsafhsahfshfjsdlfsdlhfsd";
+  "\"Don't give up on your dreams, go back to sleep\"" + "<br>" + "<br>" +
+
+  "<u>" + "Skills" + "</u>" + "<br>" +
+  " CSS/HTML 56/100" + "<br>" + 
+  "Java 89/100" + "<br>" + 
+  "C 0/100" + "<br>" +
+  "RGB Keyboard +500HP" + "<br>" + "<br>" +
+
+  "<u>" + "Projects" + "</u>" + "<br>" +
+  "Walorant | Tesla Hacking | Nasa Artemis 1"
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite2.png";
@@ -56,8 +73,16 @@ function displayEmily() {
 
   // Insert your details here
   document.getElementById("summary-text").innerHTML =
-    "adndhjkdjksfklfjksfhjkslfhsjfhshfhfjk\
-         sdfhsahfjsafhsahfshfjsdlfsdlhfsd";
+  "\"Don't give up on your dreams, go back to sleep\"" + "<br>" + "<br>" +
+
+  "<u>" + "Skills" + "</u>" + "<br>" +
+  " CSS/HTML 56/100" + "<br>" + 
+  "Java 89/100" + "<br>" + 
+  "C 0/100" + "<br>" +
+  "RGB Keyboard +500HP" + "<br>" + "<br>" +
+
+  "<u>" + "Projects" + "</u>" + "<br>" +
+  "Walorant | Tesla Hacking | Nasa Artemis 1"
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite3.png";
@@ -72,8 +97,16 @@ function displayFernando() {
 
   // Insert your details here
   document.getElementById("summary-text").innerHTML =
-    "adndhjkdjksfklfjksfhjkslfhsjfhshfhfjksfhjfhsfs\
-         sdfhsahfjsafhsahfshfjsdlfsdlhfsd";
+  "\"My quote comes here and here comes my quote...\"" + "<br>" + "<br>" +
+
+  "<u>" + "Skills" + "</u>" + "<br>" +
+  "Python 69/100" + "<br>" + 
+  "C++ 78/100" + "<br>" + 
+  "Java 98/100" + "<br>" +
+  "Golden Horseshoe +50 Luck" + "<br>" + "<br>" +
+
+  "<u>" + "Projects" + "</u>" + "<br>" +
+  "Twilight.com | Henry VIII Crown Hunt"
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite4.png";
@@ -87,8 +120,16 @@ function displayNahyun() {
 
   // Insert your details here
   document.getElementById("summary-text").innerHTML =
-    "adndhjkdjksfklfjksfhjkslfhsjfhshfh\
-           sdfhsahfjsafhsahfshfjsdlfsdlhfsd";
+  "\"Don't give up on your dreams, go back to sleep\"" + "<br>" + "<br>" +
+
+  "<u>" + "Skills" + "</u>" + "<br>" +
+  " CSS/HTML 56/100" + "<br>" + 
+  "Java 89/100" + "<br>" + 
+  "C 0/100" + "<br>" +
+  "RGB Keyboard +500HP" + "<br>" + "<br>" +
+
+  "<u>" + "Projects" + "</u>" + "<br>" +
+  "Walorant | Tesla Hacking | Nasa Artemis 1"
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite5.png";
