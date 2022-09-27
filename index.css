@@ -5,9 +5,10 @@
 
 :root {
   --black: #121212;
+  --shadow: #555555;
   --pink: #ee959e;
   --blue: #7f8de2;
-  --green: #c1fcf6;
+  --green: #77DD77;
 }
 
 html * {
@@ -16,12 +17,11 @@ html * {
 
 .head {
   display: flex;
-  margin-top: 10px;
 }
 
 .color-select {
   width: 150px;
-  margin-top: 20px;
+  margin-top: 25px;
 }
 
 .color-choose {
@@ -110,28 +110,30 @@ html * {
 .summary-container {
   display: grid;
   grid-template-columns: 3fr fit-content(20%);
-  border: solid 3px;
+  border: solid 4px var(--black);
   border-radius: 10px;
-  box-shadow: 10px 10px var(--black);
+  box-shadow: 10px 10px var(--shadow);
   width: 900px;
 }
 
 .summary-img {
-  margin: auto auto auto auto;
   display: none;
-  width: 300px;
+  width: 275px;
 }
 
 .summary-body {
-  padding: 30px 30px 30px 30px;
+  padding: 20px;
   text-align: left;
 }
 
 .summary-title {
+  background-color: var(--pink);
+  border-radius: 5px 5px 0px 0px;
+  color: var(--black);
   font-size: 32px;
   font-weight: bold;
   text-align: center;
-  text-decoration: underline;
+  border-bottom: solid 4px var(--black);
 }
 
 .group-photo {
@@ -142,26 +144,28 @@ html * {
 
 .summary-text {
   font-size: 16px;
+  text-align: center;
 }
 
 .select-character {
   margin-left: auto;
   margin-right: auto;
   font-size: 20px;
-  width: 100px;
+  width: 120px;
   height: 70px;
   display: none;
-  margin-bottom: 20px;
+  position: relative;
+  bottom: 16px;
+  margin-bottom: 19px;
 }
 
 button {
   background-color: var(--pink);
-  border: solid 3px;
+  border: solid 4px var(--black);
   border-radius: 10px;
-  padding: 20px 10px 20px 10px;
   margin: 10px 20px 10px 0px;
   transition: all 0.3s ease;
-  box-shadow: 7px 7px var(--black);
+  box-shadow: 7px 7px var(--shadow);
   font-size: 28px;
   width: 300px;
   height: 70px;
@@ -170,7 +174,6 @@ button {
 button:hover {
   background-color: var(--black);
   color: white;
-  border: solid var(--black);
   font-size: 25px;
 }
 
@@ -181,16 +184,28 @@ button:active {
 
 .contact-us-button {
   background-color: #2b2b2b;
-  border: solid 3px #121212;
+  border: solid 4px #121212;
   border-radius: 10px;
-  padding: 20px 10px 20px 10px;
+  padding: 18px 10px 20px 10px;
   margin: 10px 20px 10px 0px;
   transition: all 0.3s ease;
-  box-shadow: 7px 7px var(--black);
+  box-shadow: 7px 7px var(--shadow);
   font-size: 28px;
   width: 300px;
   height: 70px;
   line-height: normal;
+}
+
+.contact-us-button:hover {
+  background-color: var(--black);
+  color: white;
+  border: solid var(--black);
+  font-size: 25px;
+}
+
+.contact-us-button:active {
+  box-shadow: 0px 0px var(--pink);
+  transform: translateX(7px) translateY(7px);
 }
 
 #shadowBox {
@@ -248,7 +263,7 @@ button:active {
   .buttons-vertical {
     padding-bottom: 50px;
   }
-  button {
+  button, .contact-us-button {
     font-size: 42px;
     padding: 0;
     width: 70vw;

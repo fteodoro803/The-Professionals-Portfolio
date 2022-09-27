@@ -1,21 +1,34 @@
 function changeBlue() {
+  var y = document.getElementById("summary-title")
+  y.style.backgroundColor = "#7F8DE2"
+
   var x = document.querySelectorAll("button")
   x.forEach(button => {
-    button.style.backgroundColor = "#7F8DE2"
+    if (button.id != "selector") {
+      button.style.backgroundColor = "#7F8DE2"
+    }
   });
 }
 
 function changePink() {
+  var y = document.getElementById("summary-title")
+  y.style.backgroundColor = "#ee959e"
   var x = document.querySelectorAll("button")
   x.forEach(button => {
-    button.style.backgroundColor = "#ee959e"
+    if (button.id != "selector") {
+      button.style.backgroundColor = "#ee959e"
+    }
   });
 }
 
 function changeGreen() {
+  var y = document.getElementById("summary-title")
+  y.style.backgroundColor = "#77DD77"
   var x = document.querySelectorAll("button")
   x.forEach(button => {
-    button.style.backgroundColor = "#77DD77"
+    if (button.id != "selector") {
+      button.style.backgroundColor = "#77DD77"
+    }
   });
 }
 
@@ -126,7 +139,16 @@ function goToPage() {
 }
 
 // Used to check if any name is selected
-function selected() {  
+function selected() {
+  // Adds borders to character card
+  const title = document.getElementById("summary-title")
+  title.style.borderBottom = "solid 4px var(--black)";
+  title.style.borderRight = "solid 4px var(--black)";
+
+  const body = document.getElementById("summary-body")
+  body.style.borderBottom = "solid 4px var(--black)";
+  body.style.borderRight = "solid 4px var(--black)";
+  
   // Removes image
   const image = document.getElementById("group-photo")
   image.style.display = "none";

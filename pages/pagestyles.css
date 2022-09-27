@@ -115,12 +115,11 @@ button {
   background-color: var(--pink);
   border: solid 3px;
   border-radius: 10px;
-  padding: 20px 10px 20px 10px;
-  margin: 10px 20px 10px 0px;
+  margin: 10px 10px 10px 50px;
   transition: all 0.3s ease;
   box-shadow: 7px 7px var(--black);
   font-size: 28px;
-  width: 300px;
+  width: 200px;
   height: 70px;
 }
 
