@@ -119,13 +119,13 @@ html * {
 .summary-title {
   font-size: 32px;
   font-weight: bold;
+  text-align: center;
   text-decoration: underline;
 }
 
 .group-photo {
   height: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px auto 10px auto;
   display: block;
 }
 

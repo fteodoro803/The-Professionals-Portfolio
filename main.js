@@ -67,7 +67,7 @@ function displayFernando() {
   selected();
 
   // Insert your full name here
-  document.getElementById("summary-title").innerHTML = "fernando";
+  document.getElementById("summary-title").innerHTML = "Fernando";
 
 
   // Insert your details here
