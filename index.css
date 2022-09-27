@@ -17,11 +17,11 @@ html * {
 .head {
   display: flex;
   margin-top: 10px;
-  align-items: center;
 }
 
 .color-select {
   width: 150px;
+  margin-top: 20px;
 }
 
 .color-choose {
