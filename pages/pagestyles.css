@@ -93,3 +93,29 @@ body {
 .carousel {
   overflow: hidden;
 }
+
+button {
+  font-family: Cozette;
+  background-color: var(--pink);
+  border: solid 3px;
+  border-radius: 10px;
+  padding: 20px 10px 20px 10px;
+  margin: 10px 20px 10px 0px;
+  transition: all 0.3s ease;
+  box-shadow: 7px 7px var(--black);
+  font-size: 28px;
+  width: 300px;
+  height: 70px;
+}
+
+button:hover {
+  background-color: var(--black);
+  color: white;
+  border: solid var(--black);
+  font-size: 25px;
+}
+
+button:active {
+  box-shadow: 0px 0px var(--pink);
+  transform: translateX(7px) translateY(7px);
+}
