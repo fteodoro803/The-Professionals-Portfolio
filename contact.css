@@ -1,0 +1,108 @@
+@font-face {
+  font-family: Cozette;
+  src: url(CozetteVector.ttf);
+}
+
+:root {
+  --black: #121212;
+  --pink: #ee959e;
+  --blue: #7f8de2;
+  --green: #c1fcf6;
+}
+
+html * {
+  font-family: Cozette;
+}
+
+i {
+  font-size: 50px;
+  color: #121212;
+  margin-left: 20px;
+  transition: all 0.3s ease;
+}
+
+i:hover {
+  color: pink;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(
+    to right top,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #79b3f4,
+    #69bff8,
+    #52cffe,
+    #41dfff,
+    #46eefa,
+    #5ffbf1
+  );
+  border-bottom: solid 5px;
+}
+
+.profile-title {
+  font-size: 72px;
+  font-weight: bold;
+  color: black;
+  padding: 10px 30px 0px 20px;
+  margin-bottom: 0px;
+}
+
+.card {
+  border: solid 4px #121212;
+  border-radius: 20px;
+  box-shadow: 12px 12px #555555;
+  margin: 40px 40px 40px 40px;
+}
+
+.flexbox-horizontal {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 50px 0px 50px;
+}
+
+.sprite {
+  width: 200px;
+}
+
+.field-body {
+  margin-right: 10%;
+}
+
+.input,
+.textarea {
+  border: solid 3px #121212;
+  border-radius: 8px;
+}
+
+button {
+  font-family: Cozette;
+  background-color: var(--pink);
+  border: solid 3px black;
+  border-radius: 10px;
+  padding: 20px 10px 20px 10px;
+  margin: 10px 20px 10px 0px;
+  transition: all 0.3s ease;
+  box-shadow: 7px 7px var(--black);
+  font-size: 24px;
+  width: 180px;
+  height: 70px;
+}
+
+button:hover {
+  background-color: var(--black);
+  color: white;
+  border: solid var(--black);
+  font-size: 18px;
+}
+
+button:active {
+  box-shadow: 0px 0px var(--pink);
+  transform: translateX(7px) translateY(7px);
+}
