@@ -36,7 +36,7 @@ function displayAndy() {
   "RGB Keyboard +500 HP" + "<br>" + "<br>" +
 
   "<u>" + "Projects" + "</u>" + "<br>" +
-  "Walorant | Tesla Hacking | Nasa Artemis 1"
+  "Walorant | Tesla Hacking | Nasa Artemis 1 | MYKI Inspector Alert App"
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite0.png";
@@ -50,16 +50,16 @@ function displayAshlyn() {
 
   // Insert your details here
   document.getElementById("summary-text").innerHTML =
-  "\"Don't give up on your dreams, go back to sleep\"" + "<br>" + "<br>" +
+  "\"Oops, not again.\"" + "<br>" + "<br>" +
 
   "<u>" + "Skills" + "</u>" + "<br>" +
-  " CSS/HTML 56/100" + "<br>" + 
-  "Java 89/100" + "<br>" + 
-  "C 0/100" + "<br>" +
-  "RGB Keyboard +500HP" + "<br>" + "<br>" +
+  " Python 10/100" + "<br>" +
+  "HTML 5/100" + "<br>" +
+  "Scratch 24/100" + "<br>" +
+  "Pendant +5 Charisma" + "<br>" + "<br>" +
 
   "<u>" + "Projects" + "</u>" + "<br>" +
-  "Walorant | Tesla Hacking | Nasa Artemis 1"
+  "Scribble It | VR Circus Simulator | Pingu Scholar | Python Snake Game"
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite2.png";
@@ -73,7 +73,7 @@ function displayEmily() {
 
   // Insert your details here
   document.getElementById("summary-text").innerHTML =
-  "\"Don't give up on your dreams, go back to sleep\"" + "<br>" + "<br>" +
+  "\"Oops, not again.\"" + "<br>" + "<br>" +
 
   "<u>" + "Skills" + "</u>" + "<br>" +
   " CSS/HTML 56/100" + "<br>" + 
@@ -106,7 +106,7 @@ function displayFernando() {
   "Golden Horseshoe +50 Luck" + "<br>" + "<br>" +
 
   "<u>" + "Projects" + "</u>" + "<br>" +
-  "Twilight.com | Henry VIII Crown Hunt"
+  "Twilight.com | Henry VIII Crown Hunt | VentureMap | BigFoot Tracker"
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite4.png";
@@ -120,16 +120,16 @@ function displayNahyun() {
 
   // Insert your details here
   document.getElementById("summary-text").innerHTML =
-  "\"Don't give up on your dreams, go back to sleep\"" + "<br>" + "<br>" +
+  "\"I am here for moral support...\"" + "<br>" + "<br>" +
 
   "<u>" + "Skills" + "</u>" + "<br>" +
-  " CSS/HTML 56/100" + "<br>" + 
-  "Java 89/100" + "<br>" + 
-  "C 0/100" + "<br>" +
-  "RGB Keyboard +500HP" + "<br>" + "<br>" +
+  "Python 30/100" + "<br>" +
+  "Scratch 55/100" + "<br>" +
+  "Procrastination 91/100" + "<br>" +
+  "Magic Wand +420 Attack" + "<br>" + "<br>" +
 
   "<u>" + "Projects" + "</u>" + "<br>" +
-  "Walorant | Tesla Hacking | Nasa Artemis 1"
+  "Kanvas | Math Solver | PenGoogle | Python Snake Game"
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite5.png";
