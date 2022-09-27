@@ -6,6 +6,8 @@
 :root {
   --black: #121212;
   --pink: #ee959e;
+  --blue: dodgerblue;
+  --green: greenyellow;
 }
 
 html * {
@@ -15,6 +17,57 @@ html * {
 .head {
   display: flex;
   align-items: center;
+}
+
+.color-select {
+  width: 150px;
+}
+
+.color-choose {
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.green {
+  background-color: var(--green);
+}
+
+.dropbtn {
+  background-color: #4caf50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  margin-left: auto;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  background-color: transparent;
+  box-shadow: none;
+  position: absolute;
+  font-size: 18px;
+  width: 160px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .dog {
@@ -36,8 +89,7 @@ html * {
 }
 
 .container {
-  display: grid;
-  grid-template-columns: 1fr 2.5fr;
+  display: flex;
 }
 
 .buttons-vertical {
@@ -84,10 +136,11 @@ html * {
 }
 
 button {
+  background-color: var(--pink);
   border: solid 3px;
   border-radius: 10px;
   padding: 20px 10px 20px 10px;
-  margin: 10px 20px 10px 20px;
+  margin: 10px 20px 10px 0px;
   transition: all 0.3s ease;
   box-shadow: 7px 7px var(--black);
   font-size: 28px;
@@ -96,12 +149,41 @@ button {
 }
 
 button:hover {
-  background-color: var(--pink);
+  background-color: var(--black);
+  color: white;
   border: solid var(--black);
   font-size: 25px;
 }
 
 button:active {
-  box-shadow: 0px 0px var(--black);
+  box-shadow: 0px 0px var(--pink);
   transform: translateX(7px) translateY(7px);
+}
+
+@media (max-width: 1000px) {
+  .content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 0;
+    margin: 0;
+  }
+  .buttons-vertical {
+    padding-bottom: 50px;
+  }
+  button {
+    font-size: 42px;
+    padding: 0;
+    width: 70vw;
+    height: 8vh;
+  }
+  .summary-container {
+    margin-left: 30vw;
+    margin-right: 30vw;
+  }
 }

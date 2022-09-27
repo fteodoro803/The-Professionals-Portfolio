@@ -6,43 +6,67 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="index.css" />
     <script src="main.js"></script>
   </head>
 
   <body>
-    <div class="head">
-      <div class="title">The Professionals</div>
-      <img src="dog.gif" class="dog"/>
-    </div>
-    <div class="subtitle">Character Selection</div>
-    <div class="container">
-      <!-- Character Selection -->
-      <div class="buttons-vertical">
-        <button onclick="displayAndy()" id="Andy">ANDY</button>
-        <button onclick="displayAshlyn()" id="Ashlyn">ASHLYN</button>
-        <button onclick="displayEmily()" id="Emily">EMILY</button>
-        <button onclick="displayFernando()" id="Fernando">FERNANDO</button>
-        <button onclick="displayNahyun()" id="Nahyun">NAHYUN</button>
+    <div class="content">
+      <div class="head">
+        <div class="title">The Professionals</div>
+        <img src="dog.gif" class="dog" />
+        <div class="dropdown">
+          <button class="color-select">THEME</button>
+          <div class="dropdown-content">
+            <button class="color-choose" onclick="changePink()">Pink</button>
+            <button class="color-choose blue" onclick="changeBlue()">
+              Blue
+            </button>
+            <button class="color-choose green" onclick="changeGreen()">
+              Green
+            </button>
+          </div>
+        </div>
       </div>
-      <div class="summary-container">
-        <div class="summary-body">
-          <h2 class="summary-title" id="summary-title">The title</h2>
-          <p class="summary-text" id="summary-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+      <div class="subtitle">Character Selection</div>
+      <div class="container">
+        <!-- Character Selection -->
+        <div class="buttons-vertical">
+          <button onclick="displayAndy()" id="Andy">ANDY</button>
+          <button onclick="displayAshlyn()" id="Ashlyn">ASHLYN</button>
+          <button onclick="displayEmily()" id="Emily">EMILY</button>
+          <button onclick="displayFernando()" id="Fernando">FERNANDO</button>
+          <button onclick="displayNahyun()" id="Nahyun">NAHYUN</button>
         </div>
-        <div class="summary-img">
-          <img id="sprite" />
+        <div class="summary-container">
+          <div class="summary-body">
+            <h2 class="summary-title" id="summary-title">The title</h2>
+            <p class="summary-text" id="summary-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="summary-img">
+            <img id="sprite" />
+          </div>
+          <div></div>
+          <button
+            class="select-character"
+            id="characterSelect"
+            onclick="goToPage()"
+          >
+            SELECT
+          </button>
         </div>
-        <div></div>
-        <button class="select-character" id="characterSelect" onclick="goToPage()">SELECT</button>
       </div>
     </div>
   </body>

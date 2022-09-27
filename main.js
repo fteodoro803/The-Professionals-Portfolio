@@ -1,3 +1,24 @@
+function changeBlue() {
+  var x = document.querySelectorAll("button")
+  x.forEach(button => {
+    button.style.backgroundColor = "dodgerblue"
+  });
+}
+
+function changePink() {
+  var x = document.querySelectorAll("button")
+  x.forEach(button => {
+    button.style.backgroundColor = "#ee959e"
+  });
+}
+
+function changeGreen() {
+  var x = document.querySelectorAll("button")
+  x.forEach(button => {
+    button.style.backgroundColor = "greenyellow"
+  });
+}
+
 function displayAndy() {
   selected();
 
@@ -6,7 +27,7 @@ function displayAndy() {
 
   // Insert your details here
   document.getElementById("summary-text").innerHTML =
-    "adndhjkdjksfklfjksfhjkslfhs";
+    "adndhjkdjksfklfjksfhjkslfhsdhad";
 
   // Select your sprite by changing the number
   document.getElementById("sprite").src = "./sprites/sprite1.png";
@@ -46,7 +67,8 @@ function displayFernando() {
   selected();
 
   // Insert your full name here
-  document.getElementById("summary-title").innerHTML = "Fernando";
+  document.getElementById("summary-title").innerHTML = "fernando;
+
 
   // Insert your details here
   document.getElementById("summary-text").innerHTML =
