@@ -6,12 +6,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
     <link rel="stylesheet" href="index.css" />
     <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/1438e6301e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -36,15 +36,31 @@
       <div class="container">
         <!-- Character Selection -->
         <div class="buttons-vertical">
-          <button onclick="displayAndy()" id="Andy">ANDY</button>
-          <button onclick="displayAshlyn()" id="Ashlyn">ASHLYN</button>
-          <button onclick="displayEmily()" id="Emily">EMILY</button>
-          <button onclick="displayFernando()" id="Fernando">FERNANDO</button>
-          <button onclick="displayNahyun()" id="Nahyun">NAHYUN</button>
+          <button onclick="displayAndy()" id="Andy">
+            <i class="fa-solid fa-locust"></i>
+            ANDY
+          </button>
+          <button onclick="displayAshlyn()" id="Ashlyn">
+            <i class="fa-solid fa-crow"></i>
+            ASHLYN
+          </button>
+          <button onclick="displayEmily()" id="Emily">
+            <i class="fa-solid fa-kiwi-bird"></i>
+            EMILY
+          </button>
+          <button onclick="displayFernando()" id="Fernando">
+            <i class="fa-solid fa-shrimp"></i>
+            FERNANDO
+          </button>
+          <button onclick="displayNahyun()" id="Nahyun">
+            <i class="fa-solid fa-cow"></i>
+            NAHYUN
+          </button>
         </div>
         <div class="summary-container">
           <div class="summary-body">
             <h2 class="summary-title" id="summary-title">The title</h2>
+            <img class="group-photo" id= "group-photo" src="group.jpg"/>
             <p class="summary-text" id="summary-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut

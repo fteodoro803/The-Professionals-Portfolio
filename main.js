@@ -67,7 +67,7 @@ function displayFernando() {
   selected();
 
   // Insert your full name here
-  document.getElementById("summary-title").innerHTML = "fernando;
+  document.getElementById("summary-title").innerHTML = "fernando";
 
 
   // Insert your details here
@@ -105,6 +105,10 @@ function goToPage() {
 
 // Used to check if any name is selected
 function selected() {
+  // Removes image
+  const image = document.getElementById("group-photo")
+  image.style.display = "none";
+
   // Displays your sprite
   const summary = document.querySelector(".summary-img");
   summary.style.display = "block";
