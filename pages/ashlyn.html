@@ -3,13 +3,293 @@
     <meta charset="utf-8" />
     <title>Ashlyn's Profile</title>
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css"
     />
     <link rel="stylesheet" href="pagestyles.css" />
+    <script src="~bulma-carousel/dist/js/bulma-carousel.min.js"></script>
+    <script
+            src="https://kit.fontawesome.com/1438e6301e.js"
+            crossorigin="anonymous"
+    ></script>
+    <script src="pagescripts.js"></script>
   </head>
 
   <body>
-      <div class="title">Ashlyn's Page</div>
+    <div class="head">
+      <a href="../index.html">
+        <i class="fa-solid fa-house"></i>
+      </a>
+      <div class="profile-title">Ashlyn's Page</div>
+    </div>
+    <div class="flexbox-horizontal">
+      <div class="abouts-container">
+        <img class="sprite" src="../sprites/sprite2.png" />
+        <div class="abouts-header">About Ashlyn</div>
+        <div class="abouts-content">
+          In Ashlyn’s spare time, she enjoys unicycling down the street (which is harder than it sounds in her very hilly neighborhood), and honing her other clown-related skills like fire skipping and juggling. She is also passionate about the violin, just to balance out the circus hobbies, which she has been playing since the age of 4.
+        </div>
+      </div>
+      <div class="projects-container">
+        <div class="projects-header">Projects</div>
+        <!-- Start Carousel -->
+        <div id="carousel-demo" class="carousel">
+          <div class="item-1">
+            <!-- Slide Content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <button class="js-modal-trigger" data-target="project-1">
+                      Project 1
+                    </button>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Python Game
+                  <br />
+                  <time datetime="2008-22-11">11:11 PM - 11 Nov 2011</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-2">
+            <!-- Slide Content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img src="" alt="Placeholder image" />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <button class="js-modal-trigger" data-target="project-2">
+                      Project 2
+                    </button>
+                  </div>
+                </div>
+
+                <div class="content">
+                  VR Circus Simulator
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-3">
+            <!-- Slide Content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                          src="../images/pingu.png"
+                          alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <button class="js-modal-trigger" data-target="project-3">
+                      Project 3
+                    </button>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Co-developer of Pingu Scholar
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-4">
+            <!-- Slide Content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                          src=""
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <button class="js-modal-trigger" data-target="project-4">
+                      Project 4
+                    </button>
+                  </div>
+                </div>
+
+                <div class="content">
+                  MYKI INSPECTOR ALERT APP
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-5">
+            <!-- Slide Content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                          src="https://bulma.io/images/placeholders/1280x960.png"
+                          alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <button class="js-modal-trigger" data-target="project-5">
+                      Project 5
+                    </button>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Placeholder Text
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="item-6">
+            <!-- Slide Content -->
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                          src="https://bulma.io/images/placeholders/1280x960.png"
+                          alt="Placeholder image"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <button class="js-modal-trigger" data-target="project-6">
+                      Project 6
+                    </button>
+                  </div>
+                </div>
+
+                <div class="content">
+                  Placeholder Text
+                  <br />
+                  <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Carousel -->
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+      <script>
+        bulmaCarousel.attach("#carousel-demo", {
+          slidesToScroll: 2,
+          slidesToShow: 2,
+          infinite: true,
+        });
+      </script>
+    </div>
+
+    <div id="project-1" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <div class="modal-title">	Python Game</div>
+          <img src="">
+          <p>
+            Ashlyn’s past projects include an educational snake game coded with Python. By incorporating maths questions into the game, and only allowing you to progress once you get the question correct, she created a fun educational tool for primary school students.
+          </p>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="project-2" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <div class="modal-title">VR Circus Simulator</div>
+          <img src="">
+          <p>NOT YET THERE</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="project-3" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <div class="modal-title">Co-developer of Pingu Scholar</div>
+          <img src="../images/pingu.png">
+          <p>The next initiative for Ashlyn while Nahyun creates PenGoogle is to create a reputable database for any information about Penguins.  An extension of Pengoogle, Pingu Scholar proves to be an invaluable resource for any penguin lover.</p>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="project-4" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <div class="modal-title">MYKI INSPECTOR ALERT APP</div>
+          <img src="">
+          <p></p>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="project-5" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <div class="modal-title">Title</div>
+          <img src="">
+          <p>Content</p>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+
+    <div id="project-6" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box">
+          <div class="modal-title">Title</div>
+          <img src="">
+          <p>Content</p>
+        </div>
+      </div>
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
   </body>
 </html>
