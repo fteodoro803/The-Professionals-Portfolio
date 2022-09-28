@@ -148,6 +148,7 @@ function selected() {
 
   const body = document.getElementById("summary-body")
   body.style.borderRight = "solid 4px var(--black)";
+  body.style.paddingTop = "90px"
 
   const hidden = document.getElementById("hidden")
   hidden.style.borderRight = "solid 4px var(--black)"
