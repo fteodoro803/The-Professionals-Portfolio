@@ -147,8 +147,10 @@ function selected() {
   title.style.borderTopRightRadius = "0px";
 
   const body = document.getElementById("summary-body")
-  body.style.borderBottom = "solid 4px var(--black)";
   body.style.borderRight = "solid 4px var(--black)";
+
+  const hidden = document.getElementById("hidden")
+  hidden.style.borderRight = "solid 4px var(--black)"
   
   // Removes image
   const image = document.getElementById("group-photo")
