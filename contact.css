@@ -61,6 +61,17 @@ i:hover {
   margin: 40px 40px 40px 40px;
 }
 
+.flexbox-cloud {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cloud {
+  width: 300px
+}
+
 .flexbox-horizontal {
   display: flex;
   justify-content: space-evenly;
